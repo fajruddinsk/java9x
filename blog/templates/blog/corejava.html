@@ -1,0 +1,54 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+<div class="row">
+<nav>
+  <div class="breadcrumbs">
+  <ol class="breadcrumb">
+    <li><a href="{% url 'index' %}">Home</a></li>
+    <li class="active">Core Java</li>
+  </ol>
+  </div>
+</nav>
+</div>
+
+<div class="row">
+  <div class="col-md-1">
+    <!--left side space-->
+  </div>
+
+  <div class=" col-md-3 col-sm-3 col-md-push-8"><!---right side link--->
+    <br/><br/>
+    <blockquote>
+    <a href="" >Classes And Types of Classes</a><br>
+      <a href="" >Static and Non-Static Members</a><br>
+      <a href="" >JVM Internals</a><br>
+      <a href="" >Multithreading with JVM Architecture</a><br>
+      <a href="" >Exception Handling</a><br>
+      <a href="" >String Handling</a><br>
+      <a href="" >IO Streams(File IO)</a><br>
+      <a href="" >Object-Oriented Principles</a><br>
+      <a href="" >Multiple Inheritance in Java with Example</a><br>
+      <a href="" >Collection Framework</a><br>
+      <a href="" >SOLID Principles</a><br>
+      <a href="" >POJO Class/Java Bean(VO/BO/DTO Class)</a><br>
+      <a href="" >Dao Class/Dao pattern</a><br>
+
+
+    </blockquote>
+  </div>
+
+  <div class="col-md-8 col-xs-12 col-md-pull-3">
+    <div class="body-8-contain">
+<!----contain corejava---->
+</div>
+
+
+
+  </div><!---div for contain col-md-8--->
+
+
+</div><!---full-row--->
+
+{% endblock %}

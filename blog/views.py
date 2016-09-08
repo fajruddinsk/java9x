@@ -10,6 +10,10 @@ def index(request):
 
     return render(request, 'blog/index.html', {})
 
+def corejava(request):
+
+        return render(request, 'blog/corejava.html', {})
+
 def login(request):
         return render(request, 'blog/login.html',  {})
 
