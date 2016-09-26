@@ -7,18 +7,15 @@ from django.shortcuts import redirect
 
 
 def index(request):
-
     return render(request, 'blog/index.html', {})
 
 def corejava(request):
-
         return render(request, 'blog/corejava.html', {})
 
 def login(request):
         return render(request, 'blog/login.html',  {})
 
 def download(request):
-
     return render(request, 'blog/download.html',  {})
 
 #def post_list(request):
